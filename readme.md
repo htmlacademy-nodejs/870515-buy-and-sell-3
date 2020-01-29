@@ -1,7 +1,7 @@
 # Личный проект «Куплю. Продам» [![Build status][travis-image]][travis-url]
 
 * Студент: [Курапов Павел](https://up.htmlacademy.ru/nodejs/3/user/870515).
-* Наставник: `Неизвестно`.
+* Наставник: [Мендяев Николай](https://htmlacademy.ru/profile/id1339341).
 
 ---
 
