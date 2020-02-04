@@ -1,4 +1,4 @@
-'use strict';
+const {ExitCode} = require(`../../constants`);
 
 const message = `
 Программа запускает http-сервер и формирует файл с данными для API.
@@ -15,5 +15,6 @@ module.exports = {
   name: `--help`,
   run() {
     console.info(message);
+    process.exit(ExitCode.success);
   }
 };
