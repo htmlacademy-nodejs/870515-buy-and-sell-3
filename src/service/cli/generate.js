@@ -7,7 +7,6 @@ const {
   SumRestrict,
   PictureRestrict,
 } = require(`../../data`);
-const {ExitCode} = require(`../../constants`);
 const fs = require(`fs`);
 
 const MAX_COUNT = 1000;
