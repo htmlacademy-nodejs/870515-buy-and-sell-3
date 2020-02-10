@@ -1,4 +1,4 @@
-module.exports.TITLES = [
+const TITLES = [
   `Продам книги Стивена Кинга`,
   `Продам новую приставку Sony Playstation 5`,
   `Продам отличную подборку фильмов на VHS`,
@@ -6,7 +6,7 @@ module.exports.TITLES = [
   `Куплю породистого кота`,
 ];
 
-module.exports.SENTENCES = [
+const SENTENCES = [
   `Товар в отличном состоянии.`,
   `Пользовались бережно и только по большим праздникам.`,
   `Продаю с болью в сердце...`,
@@ -19,7 +19,7 @@ module.exports.SENTENCES = [
   `При покупке с меня бесплатная доставка в черте города.`,
 ];
 
-module.exports.CATEGORIES = [
+const CATEGORIES = [
   `Книги`,
   `Разное`,
   `Посуда`,
@@ -28,18 +28,28 @@ module.exports.CATEGORIES = [
   `Журналы`,
 ];
 
-module.exports.OfferType = {
+const OfferType = {
   offer: `offer`,
   sale: `sale`,
 };
 
 
-module.exports.SumRestrict = {
+const SumRestrict = {
   min: 1000,
   max: 100000,
 };
 
-module.exports.PictureRestrict = {
+const PictureRestrict = {
   min: 1,
   max: 16
+};
+
+
+module.exports = {
+  TITLES,
+  SENTENCES,
+  CATEGORIES,
+  OfferType,
+  SumRestrict,
+  PictureRestrict,
 };
